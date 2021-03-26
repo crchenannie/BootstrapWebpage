@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <title>bootstap webpage</title>
+</head>
+<body>
+    <!-- navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <a class="navbar-brand" href="#">Annie C</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  
+  <!--jumbotron -->
+  <div class="jumbotron text-center">
+          <h1>My First Bootstrap Page</h1>
+          <p>Resize this responsive page to see the effect!</p>
+          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">View Projects</button>
+        </div>
+        <div class="container text-center p-8">
+          <div class="row">
+            <div class="col-sm-4">
+              <h3>Column 1</h3>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+            <div class="col-sm-4">
+              <h3>Column 2</h3>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+            <div class="col-sm-4">
+              <h3>Column 3</h3>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+            <div class="container-fluid">
+              <p>THIS IS A CONTAINER</p>
+        </div>
+          </div>
+        </div>
+    <!--table -->
+        <div class="container">
+          <h2>Basic Table</h2>
+          <p>The .table class adds basic styling (light padding and horizontal dividers) to a table:</p>            
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Email</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>john@example.com</td>
+              </tr>
+              <tr>
+                <td>Mary</td>
+                <td>Moe</td>
+                <td>mary@example.com</td>
+              </tr>
+              <tr>
+                <td>July</td>
+                <td>Dooley</td>
+                <td>july@example.com</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+  <!-- Modal Content -->
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Modal Header</h4>
+              </div>
+              <div class="modal-body">
+                <p>This is a large modal.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  <!-- text -->
+  <input type="color">
+  <section>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id leo nibh. Nullam sed enim justo. Mauris id consectetur arcu. Donec vitae finibus orci. Praesent sed placerat quam, sed porttitor est. Aenean vulputate gravida aliquam. Fusce ornare metus at porta vestibulum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed ligula tortor, viverra nec facilisis sed, ultrices at nibh. Donec ullamcorper massa at diam aliquet porta. Aenean pharetra, neque at aliquam convallis, velit sapien euismod tortor, vitae ornare mauris massa dictum nisl. Quisque erat libero, imperdiet ultricies porta vel, feugiat sit amet justo. Donec eu aliquet enim. Fusce sagittis varius metus sit amet euismod. Fusce sit amet metus sit amet quam feugiat posuere lobortis sed nibh. Vestibulum eget sapien semper, maximus velit in, dictum tellus.
+  
+  Curabitur ullamcorper tellus non quam ornare sollicitudin et nec dolor. Morbi posuere odio id odio laoreet, sed consequat arcu viverra. Praesent iaculis, nunc ut gravida luctus, urna lorem malesuada enim, ac molestie sapien nibh a lorem. Pellentesque id mi feugiat, dapibus dolor vitae, mollis turpis. Proin fringilla, felis vestibulum venenatis cursus, purus magna dictum nisl, a scelerisque odio lectus at metus. Vestibulum rhoncus varius felis eu gravida. Vestibulum placerat, tellus non accumsan eleifend, lacus ligula dictum felis, quis aliquam elit purus non orci. In hac habitasse platea dictumst.
+  
+  Praesent a erat sem. Nulla nec orci vel felis tristique aliquet. Etiam pharetra accumsan ligula, in sollicitudin justo. Proin eleifend varius velit, et molestie tortor interdum a. Duis interdum nibh enim, id sodales ligula porttitor ut. Aliquam ac mattis mi. Aenean nec cursus lacus, vitae pellentesque risus. Nam rhoncus ac purus a efficitur. Vivamus elit nisl, vehicula at nunc a, aliquam lacinia risus. Donec eget felis dictum, bibendum nisi nec, varius velit. Aliquam tempus, neque id bibendum porttitor, nunc odio efficitur erat, ac faucibus tellus augue in tellus. Ut aliquam orci maximus, eleifend diam a, feugiat libero. Vivamus odio augue, efficitur sed fermentum lacinia, rutrum et nibh. Donec placerat convallis neque, quis iaculis libero scelerisque ac. Cras porta efficitur velit. Sed eget purus quis nisi aliquam congue sed vel ex.
+  
+  Curabitur placerat lobortis elit nec ornare. Nunc sed urna quis odio faucibus ultricies. Nunc convallis libero auctor tristique suscipit. Morbi nec sapien molestie, commodo magna sed, dictum sem. Integer nunc ipsum, egestas non tincidunt in, finibus quis purus. Duis finibus ac nisl ut tristique. Vestibulum ante nibh, tincidunt ac pretium eu, tristique id sapien. Cras sodales imperdiet sem, ut blandit ipsum posuere non. Donec congue ex vitae viverra cursus. Pellentesque semper in justo quis auctor.
+  
+  Suspendisse nec nunc a eros malesuada cursus vel vel justo. Duis elementum turpis et ante suscipit scelerisque. In cursus consectetur lacus, eu pellentesque magna sollicitudin ac. Ut fringilla dolor nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Vivamus accumsan finibus odio, non blandit neque tempus et. Nullam feugiat ullamcorper dignissim. Vestibulum lorem ipsum, finibus non quam vel, egestas molestie dolor. Integer ullamcorper eros nulla, ut blandit nisl scelerisque ac. In sodales turpis non nisi efficitur, quis accumsan nulla porta. Donec suscipit augue lectus, porttitor gravida purus interdum quis. Phasellus auctor condimentum consequat.
+  </section>
+</body>
+</html>
